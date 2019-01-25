@@ -5,7 +5,7 @@ function setup(){
 	createCanvas(700,400);	
 	brain= new NeuralNetwork(3,3,2);
 	pickcolor();
-	for(var i=0;i<100000;i++){
+	for(var i=0;i<10000;i++){
 		console.log("training");
 		var inputs=pickcolor();
 		var correct;
@@ -42,7 +42,7 @@ function draw(){
 	if(current=="black"){
 		textSize(64);
 		fill(0);
-		text("Black",width/2,height/2);
+		text("Black",350,height/2);
 	}
 	else if(current=="white"){
 		textSize(64);
