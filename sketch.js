@@ -42,11 +42,11 @@ function draw(){
 	if(current=="black"){
 		textSize(64);
 		fill(0);
-		text("Black",350,height/2);
+		text("Black",300,height/2);
 	}
 	else if(current=="white"){
 		textSize(64);
 		fill(255);
-		text("White",width/2,height/2);
+		text("White",300,height/2);
 	}
 }
